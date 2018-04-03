@@ -1,0 +1,48 @@
+.list, .list2 {
+    width: 350px;
+    border: 1px solid gray;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.list2 li:nth-child(even) {
+    background: #e6e6e6;
+}
+
+.list2 li:empty {
+    background: #ff000036;
+}
+
+.list2 li:last-child, .list2 li:first-child {
+    font-style: italic;
+}
+
+.list2 li:hover {
+    font-weight: bold;
+}
+
+li {
+    width: 85%;
+}
+
+ .selector_table .green + div {
+    color: red;
+}
+
+.selector_table_container div:nth-child(2) > div > div:nth-child(3) {
+    color: green;
+}
+
+.article > p{
+    color: magenta;
+
+}
+
+
+
+.selector_table {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 20px 10px 0 0;
+}

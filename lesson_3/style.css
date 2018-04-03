@@ -1,0 +1,77 @@
+
+/*
+p{
+    color: red;
+}
+/*1*/
+div p {
+    color: green;
+}
+/*2*/
+.text{
+    color: orange;
+}
+/*10*/
+#select_id p{
+    color: black;
+}
+/*101*/
+#select_id .text{
+    color: yellow;
+}
+
+/*
+0001 - tag
+0010 - class
+0100 - id
+1000 - style in html
+*/
+
+body {
+    font-family: Comic Sans MS;
+    font-size: 21px;
+}
+/*
+.text {
+    font-family: Comic Sans MS;
+    font-size: 21px;
+}
+
+.span_tag {
+    all: initial;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.containeriner div {
+    height: 100px;
+
+}
+
+#one {
+    background-color: red;
+}
+
+#three {
+    background-color: blue;
+}
+
+#four {
+    background-color: green;
+}
+
+p.green {
+    background-color: green;  !important;
+}
+
+#p_id {
+    color: blue;
+}
+
+.p_continer .red {
+color: red;
+}
+*/
+

@@ -1,0 +1,81 @@
+/* селектор {
+свойство : значение
+ */
+
+h1 {
+    color: green;
+}
+
+label {
+    color: green;
+    font-size: 20px;
+}
+
+.test_css_selector {
+    color: gray;
+    font-size: 40px;
+}
+
+p strong {
+    color: red;
+}
+
+ul .li_selector {
+    font-size: 24px;
+}
+
+.test + li { /* след элемент li подкрасит*/
+    color: red;
+}
+
+/* lzk потомков li*/
+.browser > li {
+    border-bottom: 2px solid gray;
+}
+
+.browser > li > span { /* lzk потомков li/span*/
+    font-weight: bold;
+    color: blue;
+}
+
+.list li:first-child {
+    color: greenyellow;
+    font-size: 30px;
+}
+
+.list li:last-child {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.list li:nth-child(4) {
+    color: dodgerblue;
+    font-size: 30px;
+}
+
+.psevdo_test {
+    height: 70px;
+    width: 70px;
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.psevdo_test:hover { /*  меняем текст при наведении*/
+    background-color: red;
+}
+
+a:link { /*Еще не посещенные ссылки*/
+    color: red;
+}
+
+a:visited { /*Посещенные ссылки*/
+    color: greenyellow;
+}
+
+a:hover { /*При наведении*/
+color: darkslategray;
+}
+
+a:active { /*ссылка в момент когда на нее нажали*/
+color: blue;
+}

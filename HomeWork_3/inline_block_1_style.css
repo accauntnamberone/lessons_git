@@ -1,0 +1,25 @@
+.inline_block{
+    width: 600px;
+}
+.floating-box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    border: 1px white;
+    background: ghostwhite;
+    text-align: center;
+    line-height: 3em;
+}
+.floating-box:nth-child(12){
+    background: red;
+
+}
+
+.floating-box:nth-child(12n+24){
+    background: yellow;
+
+}
+
+
+

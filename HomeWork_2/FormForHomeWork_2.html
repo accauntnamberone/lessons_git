@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="testing_form">
+    <label>Форма тестирования</label>
+    <hr>
+    <div class="your_name">
+        <label for="your_name_id">Важе имя: </label>
+        <input id="your_name_id" type="text" name="your_name" required><br>
+    </div>
+    <div class="your_age" name="your_age_radio" required><p>Ваш возраст: </p>
+        <input required type="radio" id="your_age_radio_1" name="your_age_radio" value="up_to_20">
+        <label for="your_age_radio_1">до 20</label><br>
+        <input type="radio" id="your_age_radio_2" name="your_age_radio" value="from_20_to_30">
+        <label for="your_age_radio_2">от 20 до 30</label><br>
+        <input type="radio" id="your_age_radio_3" name="your_age_radio" value="from_30_to_40">
+        <label for="your_age_radio_3">от 30 до 40</label><br>
+        <input type="radio" id="your_age_radio_4" name="your_age_radio" value="from_40_to_50">
+        <label for="your_age_radio_4">от 40 до 50</label><br>
+        <input type="radio" id="your_age_radio_5" name="your_age_radio" value="more_than_50">
+        <label for="your_age_radio_5">больше 50</label><br>
+    </div>
+    <div class="web_page_exists">
+        <p>Есть ли у вас собственный сайт или блог: </p>
+        <input required type="radio" id="web_page_exists_1" name="web_page_exists_radio" value="yes_exist">
+        <label for="web_page_exists_1">Да, есть</label><br>
+        <input type="radio" id="web_page_exists_2" name="web_page_exists_radio" value="no_but_i_plan_to_create">
+        <label for="web_page_exists_2">Нет, но я планирую создать</label><br>
+        <input type="radio" id="web_page_exists_3" name="web_page_exists_radio" value="no_i_do_not_need_it">
+        <label for="web_page_exists_3">Нет, мне он не нужен</label>
+    </div>
+    <div class="social_networks">
+        <p>Усть ли у Вас аккаунт в одной или нескольких соц.сетях: </p>
+        <input type="checkbox" id="odnoklasniki" name="social_networks">
+        <label for="odnoklasniki">Однокласники</label><br>
+        <input type="checkbox" id="vkontakte" name="social_networks">
+        <label for="vkontakte">Вконтакте</label><br>
+        <input type="checkbox" id="facebook" name="social_networks">
+        <label for="facebook">Facebook</label><br>
+        <input type="checkbox" id="twitter" name="social_networks">
+        <label for="twitter">Twitter</label><br>
+        <input type="checkbox" id="google+" name="social_networks">
+        <label for="google+">Google+</label><br>
+        <input type="checkbox" id="custom_variant" name="social_networks">
+        <label for="custom_variant">Свой вариант: </label>
+        <input type="text" id="custom_variant_text" name="social_networks">
+    </div>
+    <div class="send_button">
+        <br>
+        <input type="submit" value="Отправить">
+    </div>
+
+</form>
+
+</body>
+</html>

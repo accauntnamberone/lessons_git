@@ -1,0 +1,11 @@
+body {
+    font-size: 13px;
+    background: #faebcc;
+    background-image: linear-gradient(rgba(124, 128, 124, 1) 1px, transparent 1px), linear-gradient(90deg, rgba(124, 128, 124, 0.09) 1px, transparent 1px);
+    background-size: 10px 10px;
+}
+
+div#branding {
+    margin: 0 0 18px 0;
+    padding: 8px 0 20px 0;
+}

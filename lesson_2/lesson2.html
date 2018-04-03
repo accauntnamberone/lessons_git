@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>CW2</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+<body>
+<h1>CW2</h1>
+<form name="search" action="https://google.com/search" method="get">
+    <label>
+        <input type="text" name="q"> <br/>
+    </label>
+    <label for="pass_id">Enter password</label></br>
+    <input id="pass_id" type="password" for="pass_id"></br>
+
+    <label for="subscribe_id">Subscribe</label>
+    <input id="subscribe_id" type="checkbox" name="dubscribe"></br>
+
+    <label for="subscribe_checked">Subscribechecked</label>
+    <input id="subscribe_checked" type="checkbox" name="subscribe_cheled_name" checked><br>
+
+    <p><b>какое состояние разума</b></p>
+    <input type="radio" name="dzen" value="nedzen">Не дзен<br>
+    <input type="radio" name="dzen" value="dzen">Дзен<br>
+    <input type="radio" name="dzen" value="pdzen">Полный дзен<br>
+
+
+    <!-- Надо доделать радиобатоны-->
+
+    <select name="browsers">
+        <option value="chrome">Chrome</option>
+        <option value="mozzila">Mozilla</option>
+        <option value="safari">Safari</option>
+    </select></br>
+
+    <textarea name="text" cols="10" rows="10"> Тут пишется текст по умолчанию, если необходимо</textarea></br>
+
+    <input type="file" name="client_file"><br/>
+
+    <input type="submit" value="send"><br/>
+    <input type="reset" value="reset form">
+
+    <div class="test_css_selector">SomeText</div>
+    <p><strong>Strong Text</strong></p>
+    <p><span><strong>Strong text on span</strong></span></p>
+
+    <ul>
+        <li>1</li>
+        <li class="li_selector">2</li>
+        <li class="test">3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+
+    <ul class="list">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>
+
+    <a href="https://google.com/">Google</a> <br>
+    <a href="https://pb.com/">PB</a>
+
+
+    <div class="psevdo_test"></div>
+
+
+    <ul class="browser">
+        <li>
+            <span>Chrome</span>
+            <ul>
+                <li><span>10</span></li>
+                <li><span>20</span></li>
+            </ul>
+        </li>
+        <li>
+            <span>Firefox</span>
+            <ul>
+                <li><span>1</span></li>
+                <li><span>2</span></li>
+            </ul>
+        </li>
+        <li>
+            <span>Safari</span>
+            <ul>
+                <li><span>5</span></li>
+                <li><span>8</span></li>
+            </ul>
+        </li>
+    </ul>
+
+</form>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+.inline_block {
+    width: 500px;
+    font-size: 0;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /*border: groove lightgrey;*/
+    background: ghostwhite;
+    text-align: center;
+    line-height: 3em;
+    font-size: 15px;
+    margin: -1px;
+    border:2px solid darkgray;
+    box-sizing: border-box;
+
+}
+
+/*
+
+.floating-box:nth-child(n+1):nth-child(-n+10):nth-child(odd) {
+    background: lightskyblue;
+}
+*/
+
+.floating-box:nth-child(20n+1):nth-child(odd), .floating-box:nth-child(20n+3):nth-child(odd), .floating-box:nth-child(20n+5):nth-child(odd), .floating-box:nth-child(20n+7):nth-child(odd), .floating-box:nth-child(20n+9):nth-child(odd) {
+    background: lightskyblue;
+}
+
+.floating-box:nth-child(20n+12):nth-child(even), .floating-box:nth-child(20n+14):nth-child(even), .floating-box:nth-child(20n+16):nth-child(even), .floating-box:nth-child(20n+18):nth-child(even), .floating-box:nth-child(20n+20):nth-child(even) {
+    background: red;
+}
+/*
+.floating-box:nth-child(n+11):nth-child(-n+20):nth-child(even) {
+    background: orangered;
+}
+
+.floating-box:nth-child(n+21):nth-child(-n+30):nth-child(odd) {
+    background: lightskyblue;
+}
+
+.floating-box:nth-child(n+31):nth-child(-n+40):nth-child(even) {
+    background: orangered;
+}
+
+.floating-box:nth-child(n+41):nth-child(-n+50):nth-child(odd) {
+    background: lightskyblue;
+}
+
+.floating-box:nth-child(n+51):nth-child(-n+60):nth-child(even) {
+    background: orangered;
+}
+
+*/
+

@@ -1,0 +1,108 @@
+.vertical_nav {
+    list-style: none;
+}
+
+.vertical_nav a {
+    display: block;
+    text-decoration: none;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    background-color: #9A0A0D;
+    color: #D0D0D0;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.vertical_nav a:hover {
+    background: #D0D0D0;
+    color: #9A0A0D;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.vertical_nav li {
+    margin: 10px 5px;
+}
+
+.vertical_nav li a::before {
+    content: "\0020";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    /*background: green;*/
+}
+
+.home::before{
+    background: url("resources/home.png");
+}
+
+.about::before{
+    background: url("resources/user.png");
+}
+
+.contact::before{
+    background: url("resources/letter.png");
+}
+
+.home:hover::before{
+    background: url("resources/home_hover.png");
+}
+
+.about:hover::before{
+    background: url("resources/user_hover.png");
+}
+.contact:hover::before{
+    background: url("resources/letter_hover.png");
+}
+
+.social_nav .item{
+    display: inline-block;
+    list-style-type: none;
+}
+.social_nav .link{
+    display: block;
+    width: 84px;
+    height: 84px;
+    /*border:1px solid;*/
+    background: url("resources/mini-social-icons.png") no-repeat;
+    text-indent: -9999px;
+}
+.social_nav .facebook{
+    background-position: 0 0;
+}
+.social_nav .google{
+    background-position: -252px 0;
+}
+.social_nav .linkedIn{
+    background-position: -336px 0;
+}
+.social_nav .youtube{
+    background-position: -840px 0;
+}
+.social_nav .facebook:hover{
+    background-position: 0 -84px;
+}
+.social_nav .google:hover{
+    background-position: -252px -84px;
+}
+.social_nav .linkedIn:hover{
+    background-position: -336px -84px;
+}
+.social_nav .youtube:hover{
+    background-position: -840px -84px;
+}
+
+.social_nav .facebook:active{
+    background-position: 0 -168px;
+}
+.social_nav .google:active{
+    background-position: -252px -168px;
+}
+.social_nav .linkedIn:active{
+    background-position: -336px -168px;
+}
+.social_nav .youtube:active{
+    background-position: -840px -168px;
+}
