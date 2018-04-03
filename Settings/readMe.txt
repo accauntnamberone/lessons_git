@@ -13,7 +13,7 @@
 
 npm config set registry "http://registry.npmjs.org"
 
-npm config set proxy http://dn140488sdn1:dn140488sdn@proxy.pbank.com.ua:8080
+npm config set proxy http://dn140488sdn1:****@proxy.pbank.com.ua:8080
 
 npm config set strict-ssl false
 
